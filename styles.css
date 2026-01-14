@@ -81,3 +81,58 @@ select, input[type="email"] {
   color: #666;
   text-align: center;
 }
+/* Assessment Page Styles - Family Friendly */
+.card {
+  background-color: #fef9f4; /* soft cream background */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: "Helvetica", sans-serif;
+}
+
+.highlight {
+  background-color: #fff4e1;
+  border-left: 6px solid #ff9f1c;
+  padding: 10px 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 6px;
+  font-style: italic;
+}
+
+button, .button {
+  background-color: #ff9f1c;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+button:hover, .button:hover {
+  background-color: #ff7f00;
+}
+
+/* Hero Images */
+.hero-image {
+  max-width: 100%;
+  border-radius: 12px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Footer Style */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f8f5f2;
+  color: #333;
+  font-size: 14px;
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+}
